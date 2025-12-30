@@ -54,6 +54,7 @@ terraform {
 }
 ```
 ![1.4](https://github.com/IMiroxxI/Diplom_Netology/blob/main/01_Подготовка%20Terraform%20и%20Ansible/img/1.4.png)
+
 Инициализирую провайдера.
 ```bash
 Diplom init
@@ -67,6 +68,7 @@ Ansible у меня уже установлен, поэтому проверяю
 ansible --version
 ```
 ![1.6](https://github.com/IMiroxxI/Diplom_Netology/blob/main/01_Подготовка%20Terraform%20и%20Ansible/img/1.6.png)
+
 Далее делаю подготовку файла `ansible.cfg`.
 Создаю файл `inventory.ini` и добавляю в него начальные данные.
 ```bash
