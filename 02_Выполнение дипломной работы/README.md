@@ -2,11 +2,11 @@
 ### 2.1 Заполнение конфигурационного файла terraform `main.tf` для выполнения задач дипломной работы.
 Ссылки на файлы terraform
 
-[main.tf](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/files%20terraform/main.tf)
+[main.tf](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/files%20terraform/main.tf)
 
-[meta.yaml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/files%20terraform/meta.yaml)
+[meta.yaml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/files%20terraform/meta.yaml)
 
-[.terraformrc](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/files%20terraform/terraformrc)
+[.terraformrc](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/files%20terraform/terraformrc)
 
 #### По условиям задачи необходимо развернуть через terraform следующий ресурcы:
 
@@ -656,26 +656,27 @@ resource "yandex_compute_snapshot_schedule" "snapshot-diplom" {
 ```bash
 terraform apply
 ```
-![2.1](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.1.png)
+![2.1](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.1.png)
 
 ---
 
 ### 2.3 Проверка развернутых ресурсов в Yandex Cloud.
-![2.2](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.2.png)
-![2.3](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.3.png)
-![2.4](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.4.png)
-![2.5](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.5.png)
-![2.6](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.6.png)
-![2.7](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.7.png)
-![2.8](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.8.png)
-![2.9](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.9.png)
-![2.10](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.10.png)
-![2.11](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.11.png)
-![2.12](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.12.png)
-![2.13](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.13.png)
-![2.14](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.14.png)
-![2.15](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.15.png)
-![2.16](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.16.png)
+
+![2.2](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.2.png)
+![2.3](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.3.png)
+![2.4](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.4.png)
+![2.5](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.5.png)
+![2.6](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.6.png)
+![2.7](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.7.png)
+![2.8](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.8.png)
+![2.9](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.9.png)
+![2.10](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.10.png)
+![2.11](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.11.png)
+![2.12](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.12.png)
+![2.13](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.13.png)
+![2.14](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.14.png)
+![2.15](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.15.png)
+![2.16](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.16.png)
 
 #### Все ресурсы через terraform развернуты и работают. 
 
@@ -685,9 +686,9 @@ terraform apply
 
 Ссылки на файлы ansible: 
 
-[ansible.cfg](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/files%20ansible/ansible.cfg)
+[ansible.cfg](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/files%20ansible/ansible.cfg)
 
-[inventory.ini](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/files%20ansible/inventory.ini)
+[inventory.ini](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/files%20ansible/inventory.ini)
 
 ##### `ansible.cfg`. Раскоментировал и заполнил следующие строки.
 ```ansible
@@ -724,31 +725,31 @@ ansible_ssh_private_key_file=~/.ssh/id_ed25519
 ### 2.5 Файл с сайтом и ansible-playbooks для установки и конфигурирования необходимых сервисов.
 Ссылка на файл с сайтом:
 
-[index.nginx-ubuntu.html](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/files%20ansible/index.nginx-ubuntu.html)
+[index.nginx-ubuntu.html](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/files%20ansible/index.nginx-ubuntu.html)
 
-[playbook-nginx-web.yaml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/files%20ansible/playbook-nginx-web.yaml)
+[playbook-nginx-web.yaml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/files%20ansible/playbook-nginx-web.yaml)
 
-[playbook-zabbix.yaml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/files%20ansible/playbook-zabbix.yaml)
+[playbook-zabbix.yaml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/files%20ansible/playbook-zabbix.yaml)
 
-[playbook-zabbix-agent.yaml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/files%20ansible/playbook-zabbix-agent.yaml)
+[playbook-zabbix-agent.yaml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/files%20ansible/playbook-zabbix-agent.yaml)
 
-[playbook-elasticsearch.yaml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/files%20ansible/playbook-elasticsearch.yaml)
+[playbook-elasticsearch.yaml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/files%20ansible/playbook-elasticsearch.yaml)
 
-[playbook-kibana.yaml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/files%20ansible/playbook-kibana.yaml)
+[playbook-kibana.yaml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/files%20ansible/playbook-kibana.yaml)
 
-[playbook-filebeat.yaml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/files%20ansible/playbook-filebeat.yaml)
+[playbook-filebeat.yaml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/files%20ansible/playbook-filebeat.yaml)
 
-[playbook-filebeat2.yaml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/files%20ansible/playbook-filebeat2.yaml)
+[playbook-filebeat2.yaml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/files%20ansible/playbook-filebeat2.yaml)
 
 Ссылки на конфигурационные файлы:
 
-[elasticsearch.yml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/files%20ansible/elasticsearch.yml)
+[elasticsearch.yml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/files%20ansible/elasticsearch.yml)
 
-[kibana.yml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/files%20ansible/kibana.yml)
+[kibana.yml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/files%20ansible/kibana.yml)
 
-[filebeat.yml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/files%20ansible/filebeat.yml)
+[filebeat.yml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/files%20ansible/filebeat.yml)
 
-[filebeat2.yml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/files%20ansible/filebeat2.yml)
+[filebeat2.yml](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/files%20ansible/filebeat2.yml)
 
 ##### Сайт. Веб-сервера. Nginx.
 
@@ -787,7 +788,7 @@ ansible_ssh_private_key_file=~/.ssh/id_ed25519
       name: nginx
       state: restarted
 ```
-![2.17](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.17.png)
+![2.17](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.17.png)
 
 ##### Мониторинг. Zabbix. Zabbix-agent.
 
@@ -843,7 +844,7 @@ ansible_ssh_private_key_file=~/.ssh/id_ed25519
       systemctl restart zabbix-server apache2
       systemctl enable zabbix-server apache2
 ```
-![2.18](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.18.png)
+![2.18](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.18.png)
 
 На каждую ВМ устанавливаю Zabbix Agent, настраиваю агенты на отправление метрик в Zabbix.
 
@@ -885,7 +886,7 @@ ansible_ssh_private_key_file=~/.ssh/id_ed25519
       systemctl restart zabbix-agent
       systemctl enable zabbix-agent
 ```
-![2.19](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.19.png)
+![2.19](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.19.png)
 
 ##### Логи. Elasticsearch. Kibana. Filebeat.
 
@@ -924,9 +925,9 @@ ansible_ssh_private_key_file=~/.ssh/id_ed25519
       systemctl enable elasticsearch.service
       systemctl start elasticsearch.service
 ```
-![2.20](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.20.png)
+![2.20](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.20.png)
 Разворачиваю на другой ВМ Kibana, конфигурирую соединение с Elasticsearch и добавляю параметр `server.publicBaseUrl: "http://51.250.37.133:5601"` в конфигурационный файл `kibana.yml`
-![2.21](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.21.1.png)
+![2.21](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.21.1.png)
 
 ```ansible
 ---
@@ -962,7 +963,7 @@ ansible_ssh_private_key_file=~/.ssh/id_ed25519
       systemctl enable kibana.service
       systemctl start kibana.service
 ```
-![2.21](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.21.png)
+![2.21](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.21.png)
 
 Устанавливаю Filebeat в ВМ к веб-серверам, настраиваю на отправку access.log, error.log nginx в Elasticsearch.
 
@@ -1000,7 +1001,7 @@ ansible_ssh_private_key_file=~/.ssh/id_ed25519
       systemctl enable filebeat.service
       systemctl start filebeat.service
 ```
-![2.22](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.22.png)
+![2.22](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.22.png)
 ```ansible
 ---
 - name: "download and install filebeat for nginx-web-2"
@@ -1035,7 +1036,7 @@ ansible_ssh_private_key_file=~/.ssh/id_ed25519
       systemctl enable filebeat.service
       systemctl start filebeat.service
 ```
-![2.23](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.23.png)
+![2.23](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.23.png)
 
 #### Все сервисы через ansible развернуты.
 
@@ -1048,58 +1049,58 @@ ansible_ssh_private_key_file=~/.ssh/id_ed25519
 ```bash
 curl -v 158.160.177.66:80
 ```
-![2.24](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.24.png)
+![2.24](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.24.png)
 
 Просмотр сайта с браузера:
 
-![2.25](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.25.png)
+![2.25](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.25.png)
 
 ##### Мониторинг.
 Проверка работы Zabbix. Перехожу на страницу с Zabbix `http://158.160.202.216/zabbix`.
 
-![2.26](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.26.png)
-![2.27](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.27.png)
-![2.28](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.28.png)
-![2.29](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.29.png)
-![2.30](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.30.png)
-![2.31](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.31.png)
+![2.26](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.26.png)
+![2.27](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.27.png)
+![2.28](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.28.png)
+![2.29](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.29.png)
+![2.30](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.30.png)
+![2.31](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.31.png)
 
 Вхожу, используя логин - Admin, пароль - zabbix.
 
-![2.32](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.32.png)
+![2.32](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.32.png)
 
 Создаю Template.
 
-![2.33](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.33.png)
+![2.33](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.33.png)
 
 Добавляю хосты.
 
-![2.34](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.34.png)
+![2.34](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.34.png)
 
 Настраиваю дешборды с отображением метрик, минимальный набор — по принципу USE (Utilization, Saturation, Errors) для CPU, RAM, диски, сеть, http запросов к веб-серверам.
 
-![2.35](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.35.png)
+![2.35](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.35.png)
 
 ##### Логи.
 Захожу в kibana `http://158.160.185.105:5601/`
 
-![2.36](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.36.png)
+![2.36](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.36.png)
 
 Создаю Index patterns.
 
-![2.37](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.37.png)
-![2.38](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.38.png)
-![2.39](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.39.png)
-![2.40](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.40.png)
+![2.37](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.37.png)
+![2.38](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.38.png)
+![2.39](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.39.png)
+![2.40](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.40.png)
 
 Смотрю отправляются ли логи.
 
-![2.41](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.41.png)
-![2.42](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.42.png)
+![2.41](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.41.png)
+![2.42](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.42.png)
 
 ##### Резервное копирование.
 Резервное копирование настроено на 1:30, но оно настроено с учетом разницы во времени с Yandex Cloud, время по MSK 22:30.
 
-![2.43](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломонй%20работы/img/2.43.png)
+![2.43](https://github.com/IMiroxxI/Diplom_Netology/blob/main/02_Выполнение%20дипломной%20работы/img/2.43.png)
 
 Заключительная часть в 03_Заключение.
