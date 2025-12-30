@@ -1,4 +1,4 @@
-## 1.0 Установка и подготовка Terraform и Ansible.
+## 1.0 Подготовка Terraform и Ansible.
 ### 1.1 Подготовка Terraform.
 Распаковываю скачанный архив с https://hashicorp-releases.yandexcloud.net/terraform/
 ```bash
