@@ -5,4 +5,4 @@
     shell: /bin/bash
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
     ssh-authorized-keys:
-      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBupKVi/v7GN+qcNgfAHuDnT84CMzbDd6WYSjn24nMiK
+      - ssh-ed25519 (ключ)
