@@ -1,0 +1,32 @@
+---
+- name: "install nginx --> replacing a file index.nginx-ubuntu.html --> restart nginx"
+  hosts: nginx-web
+  become: true
+
+  tasks:
+  - name: "1/5 apt update"
+    apt:
+      update_cache: yes
+
+  - name: "2/5 install nginx"
+    apt:
+      name: nginx
+      state: latest
+
+  - name: "3/5 replacing a file 'index.nginx-ubuntu.html' for nginx-web"
+    copy:
+        src: /home/alex/index.nginx-ubuntu.html
+        dest: /var/www/html/index.nginx-ubuntu.html
+        owner: www-data
+        group: www-data
+
+  - name: "4/5Update nginx config"
+    replace:
+        path: /etc/nginx/sites-available/default
+        regexp: 'index .*;'
+        replace: 'index index.nginx-ubuntu.html index.html index.htm;'
+
+  - name: "5/5 restart Nginx"
+    systemd:
+      name: nginx
+      state: restarted
